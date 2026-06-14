@@ -5,8 +5,6 @@ BrowserContext === Window => Isolated Environment and Incognito mode
 Page => amazon.com, flipkart*/
 
 import {test} from "@playwright/test"
-
-
 test("Test to Launch a Browser", async ({page}) =>{ // page fixture
 
 // const browser = await chromium.launch({headless:false}) //=> Step1
