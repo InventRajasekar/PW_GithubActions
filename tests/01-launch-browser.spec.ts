@@ -14,7 +14,7 @@ test("Test to Launch a Browser", async ({page}) =>{ // page fixture
 
 await page.goto("https://leaftaps.com/opentaps/control/main");
 
-await page.waitForTimeout(5000) // Note for demo purpose only
+await page.waitForTimeout(4000) // Note for demo purpose only
 
 
 
